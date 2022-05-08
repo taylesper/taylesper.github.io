@@ -1,0 +1,102 @@
+.banner-background {
+    background-color: #a27fc7;
+    background-image: url(/Users/taylesper/projects/practice.site/resources/images/persona2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 450px;
+}
+
+#header-image {
+    height: 300px;
+}
+
+h1 {
+    font-family: cursive;
+    color: #9b7abf;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 48pt;
+    margin: 0;
+}
+
+h4 {
+    font-family: cursive;
+    color: #9b7abf;
+    text-align: center;
+    font-size: 20pt;
+}
+
+header {
+  background-color: #9b7abf;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+  }
+  
+  #cta-button {
+      border-radius: 5px;
+      background-color: #9b7abf;
+      border: 2px solid #fff;
+      width: 200px;
+      margin: 0 auto;
+      color:#fff
+  }
+  h5 {
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .feature {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border: 2px dotted #9b7abf;
+        border-radius: 50%;
+        text-align: center;
+        padding: 8px;
+        margin: 10px 10%;
+      }
+
+    h3 {
+        color: #9b7abf;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .container {
+        height: auto;
+        overflow: hidden;
+     }
+     
+     .right {
+         width: 475px;
+         float: right;
+         padding: 0 50px 0 10px;
+     }
+     
+     .left {
+         float: none; /* not needed, just for clarification */
+         /* the next props are meant to keep this block independent from the other floated one */
+         width: auto;
+         overflow: hidden;
+         padding: 0 100px 30px 50px;
+
+     }
